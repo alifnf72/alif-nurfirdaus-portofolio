@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Social */}
         <div className="flex items-center gap-5 text-xl">
           <a 
-            href="https://github.com/" 
+            href="https://https://github.com/alifnf72/" 
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-violet-500 transition"
