@@ -159,9 +159,9 @@ data-aos-once="true"
         
         <div className="transition-all duration-300 hover:scale-110 hover:text-violet-500">
           <h1 className="text-4xl font-bold mb-1">
-           4 <span className="text-violet-500">+</span>
+           3 <span className="text-violet-500">+</span>
           </h1>
-          <p>Proyek alif Selesai</p>
+          <p>Proyek Selesai</p>
         </div>
 
         <div className="transition-all duration-300 hover:scale-110 hover:text-violet-500">
@@ -394,6 +394,33 @@ data-aos-once="true"
       </ul>
     </div>
 
+    {/* Petugas Pendataan Lapangan */}
+    <div 
+      className="bg-zinc-800 p-6 rounded-xl border border-zinc-700 
+                hover:border-violet-600 hover:-translate-y-2 transition duration-300"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="700"
+      data-aos-once="true"
+    >
+      <h3 className="text-xl font-bold">
+        Petugas Pendataan Lapangan
+      </h3>
+
+      <p className="text-violet-500 mb-3">
+        Badan Pusat Statistik (BPS) – Kabupaten Ciamis, Jawa Barat
+        <br />
+        Juni 2026 – Agustus 2026
+      </p>
+
+      <ul className="opacity-70 list-disc pl-5 space-y-2">
+        <li>Melaksanakan pendataan lapangan sesuai pedoman dan target yang ditetapkan BPS.</li>
+        <li>Melakukan wawancara dan pengumpulan data dari responden secara langsung.</li>
+        <li>Melakukan pencatatan, pemeriksaan, dan verifikasi kelengkapan serta kewajaran data.</li>
+        <li>Menginput dan memperbarui hasil pendataan menggunakan aplikasi pendataan BPS.</li>
+        <li>Berkoordinasi dengan pengawas serta menyelesaikan kendala pendataan di lapangan.</li>
+      </ul>
+    </div>
   </div>
 </div>
 
