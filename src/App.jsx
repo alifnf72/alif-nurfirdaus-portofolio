@@ -159,9 +159,9 @@ data-aos-once="true"
         
         <div className="transition-all duration-300 hover:scale-110 hover:text-violet-500">
           <h1 className="text-4xl font-bold mb-1">
-            3 <span className="text-violet-500">+</span>
+           4 <span className="text-violet-500">+</span>
           </h1>
-          <p>Proyek Selesai</p>
+          <p>Proyek alif Selesai</p>
         </div>
 
         <div className="transition-all duration-300 hover:scale-110 hover:text-violet-500">
