@@ -60,11 +60,7 @@ function App() {
           </h1>
 
           <p className="text-base/loose mb-6 opacity-60">
-            Lulusan Teknik Informatika dari Universitas Komputer
-            Indonesia dengan pengalaman di bidang web development,
-            operasional komputer, serta desain, khususnya dalam
-            pengembangan website dan pembuatan desain visual seperti
-            poster, pamflet, dan banner.
+            Lulusan Teknik Informatika yang memiliki ketertarikan dan pengalaman dalam pengembangan web, teknologi informasi, pengelolaan data, serta desain visual. Saya senang mempelajari teknologi baru dan mengembangkan solusi digital yang fungsional, responsif, dan bermanfaat.
           </p>
 
           <div className="flex items-center sm:gap-4 gap-2 flex-wrap">
@@ -170,12 +166,7 @@ function App() {
               data-aos-delay="200"
               data-aos-once="true"
             >
-              Saya Muhammad Alif Nurfirdaus, lulusan S1 Teknik Informatika
-              Universitas Komputer Indonesia dengan IPK 3,12. Saya memiliki
-              pengalaman sebagai Pengajar Operator Windows di Lembaga
-              Pelatihan Kerja, membimbing peserta dalam pengoperasian
-              komputer dasar, pengolahan dokumen, serta administrasi
-              perkantoran hingga mampu bekerja secara mandiri.
+            Saya Muhammad Alif Nurfirdaus, lulusan S1 Teknik Informatika Universitas Komputer Indonesia dengan IPK 3,12. Saya memiliki pengalaman di bidang pengembangan web, administrasi perkantoran, pengelolaan data, serta teknologi informasi melalui pengalaman kerja dan magang di berbagai instansi.
             </p>
 
             <p
@@ -184,12 +175,7 @@ function App() {
               data-aos-delay="400"
               data-aos-once="true"
             >
-              Selain itu, saya memiliki pengalaman magang sebagai Web
-              Developer di PT Inilah Media Jabar (Inilah Koran),
-              berkontribusi dalam pengembangan ulang website portal berita
-              menggunakan React.js untuk frontend dan Laravel untuk backend.
-              Saya turut meningkatkan performa website agar lebih responsif,
-              cepat, dan optimal bagi pengguna.
+            Saya pernah bekerja sebagai Pengajar Operator Windows di Duta Komputer College, serta memiliki pengalaman magang sebagai Web Developer di PT Inilah Media Jabar (Inilah Koran) dengan terlibat dalam pengembangan portal berita menggunakan React.js dan Laravel. Saya juga memiliki pengalaman sebagai Petugas Pendataan Lapangan di Badan Pusat Statistik (BPS) Kabupaten Ciamis, dengan tanggung jawab melakukan pengumpulan, pemeriksaan, verifikasi, dan penginputan data.
             </p>
 
             <p
@@ -198,13 +184,16 @@ function App() {
               data-aos-delay="600"
               data-aos-once="true"
             >
-              Saya memiliki ketertarikan dalam bidang administrasi,
-              pengelolaan data, serta pengembangan web dan desain,
-              khususnya dalam pembuatan website serta desain visual seperti
-              poster, pamflet, dan banner. Didukung sertifikasi BNSP Junior
-              Web Developer, saya terbiasa menggunakan HTML, PHP, MySQL,
-              React.js, Figma, dan Canva. Disiplin, komunikatif, dan
-              bertanggung jawab adalah prinsip kerja yang selalu saya terapkan.
+            Saat ini, saya menjalani program magang di BBWS Citanduy sebagai Pengelola Website. Saya terlibat dalam pengelolaan website instansi serta pengembangan aplikasi berbasis web, seperti aplikasi Survei Kepuasan Masyarakat (e-Survei) dan aplikasi inventaris untuk mendukung kebutuhan operasional.
+            </p>
+
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+              data-aos-once="true"
+            >
+            Saya menguasai HTML, CSS, JavaScript, PHP, MySQL, Laravel, dan React.js, serta memiliki keterampilan dalam pengolahan dokumen, administrasi data, dan desain visual menggunakan Figma dan Canva. Didukung sertifikasi BNSP Junior Web Developer, saya merupakan pribadi yang disiplin, komunikatif, adaptif, memiliki kemauan belajar tinggi, dan bertanggung jawab dalam menyelesaikan pekerjaan.
             </p>
 
           </div>
@@ -236,7 +225,7 @@ function App() {
                 data-aos-once="true"
               >
                 <h1 className="text-4xl font-bold mb-1">
-                  3 <span className="text-violet-500">+</span>
+                  8 <span className="text-violet-500">+</span>
                 </h1>
                 <p>Proyek Selesai</p>
               </div>
@@ -264,7 +253,7 @@ function App() {
                 data-aos-once="true"
               >
                 <h1 className="text-4xl font-bold mb-1">
-                  1 <span className="text-violet-500">+</span>
+                  2 <span className="text-violet-500">+</span>
                 </h1>
                 <p>Pengalaman Magang</p>
               </div>
