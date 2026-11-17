@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import AOS from "aos";
 
 const PreLoader = () => {
   const [loading, setLoading] = useState(true);
@@ -6,6 +7,7 @@ const PreLoader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
+      AOS.refreshHard();
     }, 2000);
 
     return () => clearTimeout(timer);

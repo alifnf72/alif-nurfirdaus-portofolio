@@ -1,28 +1,26 @@
 // ================= HERO IMAGE =================
-import HeroImage from "/assets/profil_alif.png";
-
-const Image = {
-  HeroImage,
-};
+  const Image = {
+    HeroImage: "/assets/profil_alif.png",
+  };
 
 export default Image;
 
 
 // ================= TOOLS =================
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/git.png";
-import Tools13 from "/assets/tools/mysql.png";
-import Tools14 from "/assets/tools/php.png";
-import Tools15 from "/assets/tools/tableau.jpg";
+const Tools1 = "/assets/tools/vscode.png";
+const Tools2 = "/assets/tools/reactjs.png";
+const Tools4 = "/assets/tools/tailwind.png";
+const Tools5 = "/assets/tools/bootstrap.png";
+const Tools6 = "/assets/tools/js.png";
+const Tools7 = "/assets/tools/nodejs.png";
+const Tools8 = "/assets/tools/github.png";
+const Tools9 = "/assets/tools/ai.png";
+const Tools10 = "/assets/tools/canva.png";
+const Tools11 = "/assets/tools/figma.png";
+const Tools12 = "/assets/tools/git.png";
+const Tools13 = "/assets/tools/mysql.png";
+const Tools14 = "/assets/tools/php.png";
+const Tools15 = "/assets/tools/tableau.jpg";
 
 export const listTools = [
   {
@@ -127,33 +125,79 @@ export const listTools = [
 
 
 // ================= PROYEK =================
-import Proyek1 from "/assets/proyek/portofolio.jpg";
-import Proyek2 from "/assets/proyek/gumilang.jpg";
-import Proyek3 from "/assets/proyek/inilahkoran.jpg";
+
+const Proyek1 = "/assets/proyek/portofolio.jpg";
+const Proyek2 = "/assets/proyek/gumilang.jpg";
+const Proyek3 = "/assets/proyek/inilahkoran.jpg";
+const Proyek4 = "/assets/proyek/inventaris.jpeg";
+const Proyek5 = "/assets/proyek/pengaduan.jpeg";
+const Proyek6 = "/assets/proyek/survei.jpeg";
+const Proyek7 = "/assets/proyek/yayasan.png";
+const Proyek8 = "/assets/proyek/bengkel.png";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Portofolio",
+    nama: "Website Portofolio Pribadi",
     desk: "Website portofolio pribadi yang menampilkan profil, keterampilan, pengalaman, dan proyek dengan desain modern, responsif, serta animasi interaktif.",
     tools: ["Vite", "React.js", "Tailwind CSS", "AOS", "Animate.css"],
     dad: "200",
   },
-    {
+  {
     id: 2,
     gambar: Proyek2,
     nama: "Website Company Profile",
-    desk: "Website Company Profile yang dirancang untuk meningkatkan branding dan kredibilitas perusahaan.Menampilkan profil bisnis, layanan, galeri, dan sistem kontak interaktif dengan desain modern serta responsif.",
+    desk: "Website Company Profile yang dirancang untuk meningkatkan branding dan kredibilitas perusahaan. Menampilkan profil bisnis, layanan, galeri, dan sistem kontak interaktif dengan desain modern serta responsif.",
     tools: ["Vite", "React.js", "Tailwind CSS", "AOS", "Animate.css"],
-    dad: "200",
+    dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
     nama: "Sistem Optimalisasi Pengiriman Koran",
-    desk: "Aplikasi penentuan rute terdekat untuk pengiriman koran yang mencakup wilayah Bandung, Garut, Bogor di PT Inilah Media Jabar.",
+    desk: "Aplikasi penentuan rute terdekat untuk pengiriman koran yang mencakup wilayah Bandung, Garut, dan Bogor di PT Inilah Media Jabar.",
     tools: ["PHP", "JavaScript", "MySQL"],
     dad: "400",
+  },
+  {
+    id: 4,
+    gambar: Proyek4,
+    nama: "SIMANTIS – Sistem Manajemen Inventaris",
+    desk: "Aplikasi berbasis web untuk pengelolaan aset dan barang operasional secara digital. Memiliki fitur pendataan inventaris, pencatatan barang masuk dan keluar, pemindahan barang antar lokasi, pengelolaan barang pinjaman, pemantauan kondisi barang, serta pengaturan hak akses pengguna berdasarkan peran.",
+    tools: ["Laravel", "PHP", "MySQL"],
+    dad: "500",
+  },
+  {
+    id: 5,
+    gambar: Proyek5,
+    nama: "WISPU – Wadah Informasi dan Sistem Pengaduan",
+    desk: "Aplikasi pengaduan masyarakat berbasis web untuk menyampaikan laporan atau keluhan terkait pelayanan publik. Tersedia fitur pengiriman pengaduan online, unggah lampiran, pengelolaan laporan oleh admin, pemantauan status, tindak lanjut, tanggapan petugas, dan dashboard monitoring.",
+    tools: ["Laravel", "PHP", "MySQL"],
+    dad: "600",
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Aplikasi Survei Kepuasan Masyarakat (SKM)",
+    desk: "Sistem survei berbasis web untuk mendigitalisasi pengumpulan data kepuasan masyarakat terhadap pelayanan publik. Fitur pengisian kuesioner 16 unsur pelayanan, penghitungan IKM, kode survei otomatis, pencatatan waktu, dashboard monitoring, dan rekapitulasi hasil survei.",
+    tools: ["Laravel", "PHP", "MySQL"],
+    dad: "700",
+  },
+  {
+    id: 7,
+    gambar: Proyek7,
+    nama: "CITRANA – Website Yayasan Citanduy",
+    desk: "Website profil dan sistem manajemen konten Yayasan Citanduy sebagai media informasi, publikasi, dan dokumentasi kegiatan. Memiliki halaman profil, program dan kegiatan, berita, artikel, galeri, dan kontak. Dilengkapi dashboard admin untuk mengelola identitas, konten, menu navigasi, dropdown, dan submenu secara dinamis.",
+    tools: ["Laravel", "PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    dad: "800",
+  },
+  {
+    id: 8,
+    gambar: Proyek8,
+    nama: "Sistem Manajemen Bengkel, Sparepart Motor dan Ban",
+    desk: "Sistem informasi berbasis web untuk pengelolaan operasional bengkel motor dan toko sparepart. Fitur manajemen produk, kategori, stok, transaksi penjualan, sistem kasir (POS), pemindaian barcode via scanner atau kamera HP, riwayat transaksi, dan pengaturan hak akses Owner, Admin, dan Kasir.",
+    tools: ["React.js", "Laravel API", "PHP", "MySQL"],
+    dad: "900",
   },
 ];

@@ -5,6 +5,7 @@ const Navbar = () => {
   const [active, setActive] = useState(false);
   const [activeLink, setActiveLink] = useState("beranda");
   const [isOpen, setIsOpen] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   const navItems = [
     "beranda",
@@ -17,7 +18,12 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setActive(window.scrollY > 100);
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? scrollTop / docHeight : 0;
+      setScrollProgress(progress);
+
+      setActive(scrollTop > 100);
 
       navItems.forEach((section) => {
         const element = document.getElementById(section);
@@ -52,6 +58,12 @@ const Navbar = () => {
           : "bg-transparent py-6"
       }`}
     >
+      {/* Scroll Progress Bar */}
+      <div
+        className="scroll-progress"
+        style={{ transform: `scaleX(${scrollProgress})` }}
+      />
+
       {/* Content Wrapper */}
       <div className="w-full flex items-center justify-between px-6 lg:px-16">
         {/* Logo */}
