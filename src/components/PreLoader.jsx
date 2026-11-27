@@ -3,20 +3,32 @@ import AOS from "aos";
 
 const PreLoader = () => {
   const [loading, setLoading] = useState(true);
+  const [fading, setFading] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const fadeTimer = setTimeout(() => {
+      setFading(true);
+    }, 550);
+
+    const removeTimer = setTimeout(() => {
       setLoading(false);
       AOS.refreshHard();
-    }, 2000);
+    }, 850);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(fadeTimer);
+      clearTimeout(removeTimer);
+    };
   }, []);
 
   if (!loading) return null;
 
   return (
-    <div className="w-screen h-screen fixed flex items-center justify-center bg-black z-50">
+    <div
+      className={`w-screen h-screen fixed inset-0 flex items-center justify-center bg-black z-50 transition-opacity duration-300 ease-out ${
+        fading ? "opacity-0 pointer-events-none" : "opacity-100"
+      }`}
+    >
       <div role="status">
         <svg
           aria-hidden="true"

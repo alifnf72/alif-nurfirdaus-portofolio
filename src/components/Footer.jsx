@@ -1,6 +1,12 @@
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../translations";
+
 const Footer = () => {
+  const { lang } = useLanguage();
+  const t = translations[lang].footer;
+
   return (
-    <footer className="mt-32 py-8 border-t border-zinc-800">
+    <footer className="mt-24 py-8 border-t border-zinc-800">
 
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
 
@@ -11,7 +17,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm opacity-60 text-center">
-          © 2025 Muhammad Alif Nurfirdaus. All rights reserved.
+          © 2026 Muhammad Alif Nurfirdaus. {t.rights}
         </p>
 
         {/* Social */}
